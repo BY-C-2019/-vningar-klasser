@@ -4,11 +4,9 @@ namespace excercises_classes
 {
     public class Animal
     {
-        public int age  {get; set;}
-
-        public string name {get; set;}
-
-        public string race {get; set;}
+        public string race { get; set; }
+        public string name { get; set; }        
+        public int age { get; set; }
         
         
     public void Meow()
